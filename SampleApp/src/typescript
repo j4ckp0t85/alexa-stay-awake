@@ -1,0 +1,1420 @@
+Script started on 2021-01-30 12:22:37+01:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="237" LINES="63"]
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quite[K[Ket -c /[K"[K"[K/bin [K/bash /home/michele/my_project/lancia-alexa.sh /dev/null 
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 16.3  0.5  29896  5988 ?        Ss   11:08  12:23 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:06 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:00 avahi-daemon: running [orangepipc.local]
+root      1392 30.1  1.1  81980 11300 ?        Ssl  11:08  22:42 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.6  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.1  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:06 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.5  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        S    11:09   0:05 sshd: michele@pts/2
+michele   2931  0.1  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:03 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      5939  0.0  0.0      0     0 ?        I    11:57   0:00 [kworker/3:2-events]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-events]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6419  0.0  0.0      0     0 ?        I    12:10   0:00 [kworker/2:3-mm_percpu_wq]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-events_power_efficient]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:01 [kworker/u8:2-events_unbound]
+root      6514  0.0  0.0      0     0 ?        I    12:16   0:00 [kworker/u8:4-phy0]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-events]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.4  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  1.1  0.2   7880  2976 pts/4    Ss   12:23   0:00 /bin/bash
+michele   6887  0.0  0.2   8892  2104 pts/4    R+   12:23   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 6448
+kill: (6448): No such process
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 6448[C[C[K[K[K[K863
+kill: (863): No such process
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 863[C[C6863
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 6863[C[K[K80
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 688063[1P8636448[7Pps -aux[3Pexitdf -ahbash license.sh clear[Kbash license.sh [10Pdf -ah[2Pexitps -auxsudo kill 6448[1P863686380[Ksudo kill 688063[1P8636448[7Pps -aux[3Pexitdf -ahbash license.sh [10Pdf -ah[2Pexitps -auxsudo kill 6448[1P863686380[K script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" /dev/null
+/home/michele/my_project/lancia-alexa.sh: line 1: Script: command not found
+/home/michele/my_project/lancia-alexa.sh: line 2: $'\E]0': command not found
+/home/michele/my_project/lancia-alexa.sh: line 2: michele@orangepipc:: command not found
+/home/michele/my_project/lancia-alexa.sh: line 3: USER: command not found
+/home/michele/my_project/lancia-alexa.sh: line 4: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 5: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 6: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 7: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 8: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 9: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 10: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 11: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 12: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 13: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 14: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 15: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 16: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 17: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 18: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 19: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 20: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 21: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 22: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 23: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 24: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 25: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 26: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 27: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 28: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 29: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 30: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 31: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 32: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 33: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 34: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 35: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 36: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 37: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 38: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 39: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 40: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 41: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 42: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 43: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 44: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 45: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 46: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 47: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 48: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 49: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 50: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 51: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 52: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 53: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 54: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 55: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 56: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 57: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 58: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 59: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 60: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 61: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 62: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 63: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 64: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 65: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 66: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 67: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 68: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 69: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 70: 11:07: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 71: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 72: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 73: message+: command not found
+/home/michele/my_project/lancia-alexa.sh: line 74: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 75: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 76: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 77: avahi: command not found
+/home/michele/my_project/lancia-alexa.sh: line 78: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 79: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 80: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 81: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 82: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 83: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 84: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 85: sl: No such file or directory
+/home/michele/my_project/lancia-alexa.sh: line 86: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 87: avahi: command not found
+/home/michele/my_project/lancia-alexa.sh: line 88: root: command not found
+/home/michele/my_project/lancia-alexa.sh: line 89: syntax error near unexpected token `('
+/home/michele/my_project/lancia-alexa.sh: line 89: `root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)'
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 68806380[Kclear
+[H[2J[3J]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 16.0  0.6  29900  6600 ?        Ss   11:08  12:24 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:06 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:00 avahi-daemon: running [orangepipc.local]
+root      1392 29.5  1.1  81980 11300 ?        Ssl  11:08  22:43 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.6  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:06 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.5  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        R    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.1  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:03 [kworker/u8:3-phy0]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      5939  0.0  0.0      0     0 ?        I    11:57   0:00 [kworker/3:2-events]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-events]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6419  0.0  0.0      0     0 ?        I    12:10   0:00 [kworker/2:3-mm_percpu_wq]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-events_freezable]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:01 [kworker/u8:2-events_unbound]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-mm_percpu_wq]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.1  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.2  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1]
+michele   7005  0.0  0.2   8892  2120 pts/4    R+   12:25   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 6448
+kill: (6448): No such process
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 6448[C[K[K[K[K6863
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 15.4  0.6  29896  6692 ?        Ss   11:08  12:25 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:06 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:01 avahi-daemon: running [orangepipc.local]
+root      1392 28.4  1.1  81980 11300 ?        Ssl  11:08  22:44 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.5  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:06 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.4  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        R    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.1  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:04 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      5939  0.0  0.0      0     0 ?        I    11:57   0:00 [kworker/3:2-events]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-events]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-mm_percpu_wq]
+root      6508  0.2  0.0      0     0 ?        D    12:16   0:02 [kworker/u8:2+phy0]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-events_freezable]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.0  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.1  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1]
+root      7010  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/0:1]
+root      7013  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:2-mm_percpu_wq]
+root      7014  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:3-events]
+root      7020  0.0  0.0      0     0 ?        I    12:26   0:00 [kworker/1:2]
+michele   7039  0.0  0.1   6448  1680 pts/4    S+   12:27   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7040  0.7  0.2   7880  2976 pts/5    Ss   12:27   0:00 /bin/bash
+michele   7047  0.0  0.2   8892  2124 pts/5    R+   12:28   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 7039
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 7039[7Pps -auxsudo kill 7039[Kscript --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 15.3  0.4  28612  5028 ?        Ss   11:08  12:25 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:06 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:01 avahi-daemon: running [orangepipc.local]
+root      1392 28.2  1.1  81980 11300 ?        Ssl  11:08  22:44 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.5  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:06 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.4  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        S    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.0  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:04 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      5939  0.0  0.0      0     0 ?        I    11:57   0:00 [kworker/3:2-events]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-events]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-mm_percpu_wq]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:02 [kworker/u8:2-events_unbound]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-mm_percpu_wq]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.0  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.0  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1]
+root      7010  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/0:1]
+root      7013  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:2-mm_percpu_wq]
+root      7014  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:3-events]
+root      7020  0.0  0.0      0     0 ?        I    12:26   0:00 [kworker/1:2]
+michele   7039  0.0  0.1   6448  1680 pts/4    S+   12:27   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7040  0.3  0.3   7880  3104 pts/5    Ss   12:27   0:00 /bin/bash
+root      7048  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:0-events_unbound]
+root      7049  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:4-events_unbound]
+michele   7058  0.3  0.1   6448  1548 pts/5    S+   12:28   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7059  8.3  0.2   7880  3016 pts/6    Ss   12:28   0:00 /bin/bash
+michele   7061  0.0  0.2   8892  2048 pts/6    R+   12:28   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 70587
+kill: (70587): No such process
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 70587[K
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ clear
+[H[2J[3J]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quiet -c /home/michele/my_project/lancia-alexa.sh /dev/null
+bash: /home/michele/my_project/lancia-alexa.sh: Text file busy
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quiet -c /home/michele/my_project/lancia-alexa.sh /dev/null[C[1@.
+bash: ./home/michele/my_project/lancia-alexa.sh: No such file or directory
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quiet -c ./home/michele/my_project/lancia-alexa.sh /dev/null[1P
+bash: /home/michele/my_project/lancia-alexa.sh: Text file busy
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 15.2  0.5  28616  5448 ?        Ss   11:08  12:25 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:07 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:01 avahi-daemon: running [orangepipc.local]
+root      1392 27.9  1.1  81980 11300 ?        Ssl  11:08  22:44 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.4  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:07 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.4  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        S    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.0  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:04 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-mm_percpu_wq]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-mm_percpu_wq]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:02 [kworker/u8:2-events_unbound]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-events_freezable]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.0  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.0  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1]
+root      7010  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/0:1]
+root      7013  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:2-events]
+root      7014  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:3-events]
+root      7020  0.0  0.0      0     0 ?        I    12:26   0:00 [kworker/1:2]
+michele   7039  0.0  0.1   6448  1680 pts/4    S+   12:27   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7040  0.1  0.3   7880  3104 pts/5    Ss   12:27   0:00 /bin/bash
+root      7048  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:0-phy0]
+root      7049  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:4-events_unbound]
+michele   7058  0.0  0.1   6448  1548 pts/5    S+   12:28   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7059  0.6  0.3   7880  3140 pts/6    Ss   12:28   0:00 /bin/bash
+root      7078  0.0  0.0      0     0 ?        I<   12:29   0:00 [kworker/1:2H]
+michele   7081  0.0  0.2   8892  2116 pts/6    R+   12:29   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 7058
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ script --return --quiet -c /home/michele/my_project/lancia-alexa.sh /dev/null
+bash: /home/michele/my_project/lancia-alexa.sh: Text file busy
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 15.1  0.5  29896  5708 ?        Ss   11:08  12:26 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:07 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:01 avahi-daemon: running [orangepipc.local]
+root      1392 27.8  1.1  81980 11300 ?        Ssl  11:08  22:45 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.4  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:11 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:07 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.4  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        S    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.0  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:04 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-mm_percpu_wq]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-mm_percpu_wq]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:02 [kworker/u8:2-events_unbound]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-mm_percpu_wq]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-events]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.0  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    S+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.0  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1]
+root      7010  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/0:1]
+root      7013  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:2-events]
+root      7014  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:3-events]
+root      7020  0.0  0.0      0     0 ?        I    12:26   0:00 [kworker/1:2]
+michele   7039  0.0  0.1   6448  1680 pts/4    S+   12:27   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7040  0.1  0.3   7880  3104 pts/5    Ss   12:27   0:00 /bin/bash
+root      7048  0.2  0.0      0     0 ?        R    12:28   0:00 [kworker/u8:0-events_unbound]
+root      7049  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:4-events_unbound]
+michele   7058  0.1  0.1   6448  1548 pts/5    S+   12:28   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7059  0.4  0.3   7880  3144 pts/6    Ss   12:28   0:00 /bin/bash
+root      7078  0.0  0.0      0     0 ?        I<   12:29   0:00 [kworker/1:2H]
+root      7084  0.0  0.0      0     0 ?        I    12:29   0:00 [kworker/3:2-events]
+michele   7090  0.0  0.2   8892  2136 pts/6    R+   12:29   0:00 ps -aux
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 7039
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ sudo kill 7058
+
+Session terminated.
+]0;michele@orangepipc: ~/my_project/source/avs-device-sdk/SampleApp/srcmichele@orangepipc:~/my_project/source/avs-device-sdk/SampleApp/src$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.5  0.6  32272  6840 ?        Ss   11:07   0:26 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    11:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:07   0:00 [rcu_par_gp]
+root         8  0.0  0.0      0     0 ?        I<   11:07   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/0]
+root        10  0.1  0.0      0     0 ?        I    11:07   0:05 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/2]
+root        20  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S    11:07   0:00 [cpuhp/3]
+root        24  0.0  0.0      0     0 ?        S    11:07   0:00 [migration/3]
+root        25  0.0  0.0      0     0 ?        S    11:07   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    11:07   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        I<   11:07   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_trace]
+root        31  0.0  0.0      0     0 ?        S    11:07   0:00 [rcu_tasks_rude_]
+root        33  0.0  0.0      0     0 ?        S    11:07   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    11:07   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        I<   11:07   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    11:07   0:00 [kcompactd0]
+root        39  0.0  0.0      0     0 ?        SN   11:07   0:00 [ksmd]
+root        57  0.0  0.0      0     0 ?        I<   11:07   0:00 [cryptd]
+root       100  0.0  0.0      0     0 ?        I<   11:07   0:00 [kintegrityd]
+root       101  0.0  0.0      0     0 ?        I<   11:07   0:00 [kblockd]
+root       102  0.0  0.0      0     0 ?        I<   11:07   0:00 [blkcg_punt_bio]
+root       103  0.0  0.0      0     0 ?        I<   11:07   0:00 [ata_sff]
+root       104  0.0  0.0      0     0 ?        I<   11:07   0:00 [devfreq_wq]
+root       105  0.0  0.0      0     0 ?        S    11:07   0:00 [watchdogd]
+root       106  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/1:1H-kblockd]
+root       107  0.0  0.0      0     0 ?        S    11:07   0:03 [kswapd0]
+root       108  0.0  0.0      0     0 ?        S    11:07   0:00 [ecryptfs-kthrea]
+root       110  0.0  0.0      0     0 ?        I<   11:07   0:00 [kthrotld]
+root       112  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-1ee0000.]
+root       113  0.0  0.0      0     0 ?        S    11:07   0:00 [card0-crtc0]
+root       114  0.0  0.0      0     0 ?        I<   11:07   0:00 [stmmac_wq]
+root       117  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/32-sunxi-mm]
+root       120  0.0  0.0      0     0 ?        I<   11:07   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        I<   11:07   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       135  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap1]
+root       136  0.0  0.0      0     0 ?        I<   11:07   0:00 [mmc_complete]
+root       137  0.0  0.0      0     0 ?        I<   11:07   0:00 [zswap-shrink]
+root       138  0.0  0.0      0     0 ?        I<   11:07   0:00 [kworker/u9:0]
+root       139  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/2:1H-kblockd]
+root       181  0.0  0.0      0     0 ?        I<   11:07   0:01 [kworker/3:1H-kblockd]
+root       182  0.0  0.0      0     0 ?        S    11:07   0:00 [cec-dw_hdmi]
+root       183  0.0  0.0      0     0 ?        S    11:07   0:00 [irq/51-dw-hdmi-]
+root       185  0.0  0.0      0     0 ?        S    11:07   0:00 [gp]
+root       186  0.0  0.0      0     0 ?        S    11:07   0:00 [pp]
+root       213  0.0  0.0      0     0 ?        S    11:07   0:00 [jbd2/mmcblk0p1-]
+root       214  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       297  0.0  0.3  17560  3404 ?        Ss   11:07   0:01 /lib/systemd/systemd-udevd
+root       301  0.0  0.0      0     0 ?        S<   11:07   0:00 [loop0]
+root       378  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       379  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       380  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       381  0.0  0.0      0     0 ?        S    11:07   0:00 [1c15000.crypto-]
+root       426  0.0  0.0      0     0 ?        S    11:07   0:01 [irq/67-ths]
+root       465  0.0  0.0      0     0 ?        S    11:07   0:00 [rc0]
+root       471  0.0  0.0      0     0 ?        I<   11:07   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   11:07   0:00 [ext4-rsv-conver]
+root       649 15.1  0.6  29896  6704 ?        Ss   11:08  12:26 /lib/systemd/systemd-journald
+root       653  0.0  0.4   7248  4132 ?        Ss   11:08   0:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+message+  1364  0.2  0.3   5820  3144 ?        Ss   11:08   0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1371  0.1  0.9  61384 10072 ?        Ssl  11:08   0:07 /usr/sbin/NetworkManager --no-daemon
+root      1372  0.0  0.3   9920  3896 ?        SNs  11:08   0:00 /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+root      1375  0.0  0.7  62872  7888 ?        Ssl  11:08   0:00 /usr/lib/udisks2/udisksd
+avahi     1381  0.0  0.2   4812  2200 ?        Ss   11:08   0:01 avahi-daemon: running [orangepipc.local]
+root      1392 27.6  1.1  81980 11264 ?        Ssl  11:08  22:45 /usr/sbin/rsyslogd -n -iNONE
+root      1395  0.0  0.4  10748  4540 ?        Ss   11:08   0:01 /lib/systemd/systemd-logind
+root      1398  0.1  1.4 928796 14892 ?        Ssl  11:08   0:06 /usr/lib/snapd/snapd
+root      1403  0.0  0.1   7320  1848 ?        Ss   11:08   0:00 /usr/sbin/cron -f
+root      1404  0.0  0.6  51640  6608 ?        Ssl  11:08   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root      1411  0.0  1.2  26896 12528 ?        Ss   11:08   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1413  0.0  0.1  27184  1112 ?        SLsl 11:08   0:00 /usr/sbin/rngd -r /dev/urandom
+pulse     1417  2.4  1.6 197092 16408 ?        S<sl 11:08   2:01 /usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+root      1418  0.0  0.5   8864  5188 ?        Ss   11:08   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi     1429  0.0  0.0   4684   248 ?        S    11:08   0:00 avahi-daemon: chroot helper
+root      1513  0.0  0.5  36864  5516 ?        Ssl  11:08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1533  0.0  1.6 200944 17008 ?        Ss   11:08   0:00 php-fpm: master process (/etc/php/7.3/fpm/php-fpm.conf)
+root      1536  0.0  0.5  47284  5668 ?        Ss   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1551  0.0  1.3  39388 14208 ?        Ssl  11:08   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1552  0.0  0.0   4564   980 ?        Ss   11:08   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root      1573  0.0  0.4  44900  4456 ?        Ssl  11:08   0:00 /usr/sbin/lightdm
+root      1574  0.0  0.2   8880  2880 ?        Ss   11:08   0:00 /usr/sbin/sshd -D
+ntp       1590  0.0  0.2   7044  2636 ?        Ssl  11:08   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 120:129
+root      1768  0.0  0.3  60536  4092 ?        Sl   11:08   0:00 /usr/sbin/nghttpx --conf=/etc/nghttpx/nghttpx.conf
+root      1862  0.0  5.6 170612 57656 tty7     Ssl+ 11:08   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1864  0.0  0.1   3836  1028 tty1     Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1866  0.0  0.1   6144  1468 ttyS0    Ss+  11:08   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 linux
+Debian-+  1896  0.0  0.2  11560  2244 ?        Ss   11:08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1898  0.0  0.1  46192  2012 ?        Ss   11:08   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  1899  0.0  0.2  46328  3032 ?        S    11:08   0:00 nginx: worker process
+www-data  1900  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1901  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1902  0.0  0.2  46328  2400 ?        S    11:08   0:00 nginx: worker process
+www-data  1977  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+www-data  1978  0.0  0.4 200944  4304 ?        S    11:08   0:00 php-fpm: pool www
+michele   2164  0.0  0.1   7556  1376 ?        Ss   11:08   0:00 SCREEN -d -m -S irssi irssi
+michele   2169  0.2  2.4  65336 25320 pts/0    Ss+  11:08   0:12 irssi
+michele   2177  0.0  0.1   7556  1388 ?        Ss   11:08   0:00 SCREEN -d -m -S rtorrent rtorrent
+michele   2179  0.1  0.9  41796  9780 pts/1    Ssl+ 11:08   0:06 rtorrent
+root      2219  0.0  0.4   6240  4192 ?        S    11:08   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlx000f0038fdf6.pid -lf /var/lib/NetworkManager/dhclient-45b2a6ef-7e77-4da8-ae09-77689d1df
+root      2242  0.0  0.4  28000  4748 ?        Sl   11:08   0:00 lightdm --session-child 14 17
+michele   2247  0.0  0.5  12060  6116 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+michele   2248  0.0  0.1  14272  1572 ?        S    11:08   0:00 (sd-pam)
+michele   2264  0.0  0.0   1472   356 ?        Ss   11:08   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+michele   2277  0.0  0.3   5588  3080 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+michele   2374  0.0  0.0   3612   848 ?        Ss   11:08   0:00 /usr/bin/ssh-agent startxfce4
+michele   2392  0.0  1.1  45732 11792 ?        Sl   11:08   0:00 xfce4-session
+michele   2446  0.0  0.4  44520  4384 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+michele   2460  0.0  0.2   5336  2704 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+michele   2468  0.0  0.4  28348  4212 ?        Sl   11:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+michele   2477  0.0  0.3   8240  3764 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/xfconf/xfconfd
+michele   2485  0.0  0.0  16708   796 ?        SLs  11:08   0:00 /usr/bin/gpg-agent --supervised
+michele   2488  0.0  1.4  30020 14768 ?        S    11:08   0:00 xfwm4
+michele   2492  0.0  1.7  50372 17468 ?        Sl   11:08   0:00 xfce4-panel
+michele   2494  0.0  3.5 165944 36528 ?        Sl   11:08   0:01 Thunar --daemon
+michele   2496  0.0  2.0  63256 20952 ?        Sl   11:08   0:01 xfdesktop
+michele   2497  0.0  4.1 441288 42356 ?        Sl   11:08   0:02 pasystray
+michele   2498  0.0  0.4  38884  4180 ?        Sl   11:08   0:00 /usr/lib/geoclue-2.0/demos/agent
+michele   2504  0.0  1.2  78556 12468 ?        Ssl  11:08   0:00 xfsettingsd
+michele   2505  0.0  3.4 164128 35428 ?        Sl   11:08   0:01 light-locker
+michele   2508  0.0  3.0 150812 31556 ?        Sl   11:08   0:01 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+michele   2510  0.1  4.2 183296 43228 ?        Sl   11:08   0:07 nm-applet
+michele   2515  0.0  2.1  41936 21636 ?        S    11:08   0:02 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+michele   2521  0.0  0.3  24480  3612 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+michele   2527  0.4  1.7 451456 17524 ?        S<sl 11:08   0:23 /usr/bin/pulseaudio --daemonize=no
+root      2535  0.0  0.6  53796  6168 ?        Ssl  11:08   0:01 /usr/lib/upower/upowerd
+michele   2538  0.0  0.4  41376  4936 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+rtkit     2542  0.0  0.1  22236  1840 ?        SNsl 11:08   0:00 /usr/lib/rtkit/rtkit-daemon
+michele   2557  0.0  0.4  51860  4128 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+michele   2632  0.0  0.5  42624  5744 ?        Sl   11:08   0:00 /usr/lib/arm-linux-gnueabihf/pulse/gsettings-helper
+michele   2642  0.0  1.2  26916 12340 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libsystray.so 6 12582938 systray Area di notifica Area in cui compaion
+michele   2645  0.0  1.3  28008 14020 ?        S    11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/panel/wrapper-1.0 /usr/lib/arm-linux-gnueabihf/xfce4/panel/plugins/libactions.so 2 12582939 actions Pulsante delle azioni Disconnette l'u
+michele   2691  0.0  1.9  62516 20120 ?        Ssl  11:08   0:00 /usr/lib/arm-linux-gnueabihf/xfce4/notifyd/xfce4-notifyd
+michele   2731  0.0  0.7  75760  8008 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+michele   2745  0.0  0.3  38740  3768 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+michele   2752  0.0  0.3  38736  3656 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+michele   2759  0.0  0.3  40216  4072 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+michele   2769  0.0  0.3  53560  3840 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      2822  0.0  0.5  10468  5152 ?        Ss   11:09   0:00 sshd: michele [priv]
+michele   2930  0.1  0.3  10468  3544 ?        S    11:09   0:06 sshd: michele@pts/2
+michele   2931  0.0  0.3   7992  3096 pts/2    Ss   11:09   0:04 -bash
+root      3178  0.0  0.0      0     0 ?        I<   11:13   0:02 [kworker/0:0H-mmc_complete]
+root      4267  0.0  0.4  25192  4564 ?        Ss   11:30   0:00 /usr/sbin/cupsd -l
+root      4270  0.0  0.6  36816  6280 ?        Ssl  11:30   0:00 /usr/sbin/cups-browsed
+lp        4275  0.0  0.2  11512  2940 ?        S    11:30   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      4928  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/1:0-events]
+root      5620  0.1  0.0      0     0 ?        I    11:53   0:04 [kworker/u8:3-events_unbound]
+root      5631  0.0  0.0      0     0 ?        I<   11:53   0:00 [kworker/1:0H]
+root      5786  0.0  0.0      0     0 ?        I<   11:55   0:00 [kworker/3:0H]
+root      6242  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/3:0-mm_percpu_wq]
+root      6243  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0-events]
+root      6257  0.1  0.0      0     0 ?        I    12:04   0:01 [kworker/u8:1-events_unbound]
+root      6423  0.0  0.0      0     0 ?        I<   12:10   0:00 [kworker/0:2H]
+root      6497  0.0  0.0      0     0 ?        I    12:15   0:00 [kworker/2:0-mm_percpu_wq]
+root      6508  0.2  0.0      0     0 ?        I    12:16   0:02 [kworker/u8:2-events_unbound]
+root      6622  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/1:1-events]
+root      6641  0.0  0.0      0     0 ?        I    12:17   0:00 [kworker/0:2-events]
+root      6642  0.0  0.0      0     0 ?        I<   12:17   0:00 [kworker/2:2H]
+root      6842  0.0  0.0      0     0 ?        I    12:20   0:00 [kworker/2:1-mm_percpu_wq]
+michele   6863  0.0  0.1   6448  1548 pts/2    S+   12:22   0:00 script
+michele   6864  0.0  0.3   7880  3168 pts/3    Ss   12:22   0:00 bash -i
+michele   6880  0.0  0.1   6448  1476 pts/3    R+   12:23   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   6881  0.0  0.3   7880  3104 pts/4    Ss   12:23   0:00 /bin/bash
+root      6888  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/3:1-events]
+root      7010  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/0:1]
+root      7013  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:2-events]
+root      7014  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/2:3-events]
+root      7020  0.0  0.0      0     0 ?        I    12:26   0:00 [kworker/1:2]
+michele   7039  0.0  0.1   6448  1680 pts/4    S+   12:27   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7040  0.1  0.3   7880  3104 pts/5    Ss   12:27   0:00 /bin/bash
+root      7048  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:0-events_unbound]
+root      7049  0.2  0.0      0     0 ?        I    12:28   0:00 [kworker/u8:4-events_unbound]
+michele   7058  0.0  0.1   6448  1548 pts/5    S+   12:28   0:00 script --return --quiet -c /bin/bash /home/michele/my_project/lancia-alexa.sh /dev/null
+michele   7059  0.3  
